@@ -17,6 +17,7 @@
 
   --base-color-gray-dark: #0D0E11;
   --base-color-gray-midle-dark: #16181D;
+  --base-color-gray-light-dark: #29292E;
   --base-color-gray-midle: #292C34;
   --base-color-gray-light: #878EA1;
   --base-color-gray-lighter: #C0C4CE;
@@ -29,7 +30,26 @@
   --text: 400 1rem/120% var(--font-family-maven);
   --text-md: 400 1rem/140% var(--font-family-maven);
   --text-sm: 400 0.875rem/140% var(--font-family-maven);
+}
 
+body {
+  font: var(--text);
+  color: var(--base-color-gray-lightest);
+  background-color: var(--base-color-gray-light-dark);
+}
 
+#container {
+  padding: 3rem;
+  max-width: 1366px;
+  margin-inline: auto;
+}
 
+.grid {
+  display: grid;
+  grid-template-columns: columns;
+  gap: 1rem;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
