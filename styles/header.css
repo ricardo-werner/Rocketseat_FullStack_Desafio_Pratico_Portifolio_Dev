@@ -1,0 +1,118 @@
+/* Estilos do Header */
+.header-grid {
+  position: relative; /* Para o ::before ser posicionado relativamente ao .header-grid */
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-image: url("../assets/images/Background_Intro.png");
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-grid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/BG_Abstrato.png");
+  background-size: cover;
+  opacity: 0.1; /* Transparência para que o conteúdo não fique sobrecarregado */
+  z-index: 1; /* Coloca o quadriculado abaixo do conteúdo do header */
+}
+
+.tecnologias-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(100px, 1fr)
+  ); /* Distribui em colunas */
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1040px; /* Controla a largura máxima da grid */
+  z-index: 2; /* Para garantir que os ícones fiquem sobre o background */
+}
+
+.tecnologia-item {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: var(--base-color-gray-lightest);
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  
+}
+
+header .header-text {
+  position: relative;
+  z-index: 2; /* Coloca o conteúdo acima do quadriculado */
+}
+
+/* Estilos para a imagem do perfil */
+.header-grid .logo {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.header-grid .logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ff4d4d; /* Borda circular vermelha */
+  object-fit: cover;
+}
+
+.header-grid .logo i {
+  position: absolute;
+  right: 10px;
+  bottom: 1px;
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  color: #4dff4d; /* Verde para o ícone */
+  font-size: 1.5rem;
+}
+
+/* Texto de introdução */
+.header-grid .header-text {
+  color: var(--base-color-gray-light);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.header-grid .header-text span {
+  color: #ffffff; /* Destacar o nome em branco */
+}
+
+.header-grid .header-text span {
+  color: #ff4d4d; /* Destacar o nome em vermelho */
+}
+
+.header-grid h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.tecnologia-item img {
+  max-width: 50px;
+}
+
+.tecnologia-item p {
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Efeito de hover para realce */
+.tecnologia-item:hover{
+  background-color: var(--main-color-green); /* Fundo mais claro ao hover */
+  transform: translateY(-5px); /* Efeito de elevação */
+}
+

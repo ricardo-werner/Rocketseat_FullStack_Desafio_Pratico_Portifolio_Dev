@@ -9,19 +9,19 @@
   --font-family-inconsolata: "Inconsolata", monospace;
   --font-family-maven: "Maven Pro", sans-serif;
 
-  --main-color-red: #E3646E;
-  --main-color-purple: #BB72E9;
-  --main-color-blue: #3996DB;
-  --main-color-green: #82BC4F;
-  --main-color-yellow: #EABD5F;
+  --main-color-red: #e3646e;
+  --main-color-purple: #bb72e9;
+  --main-color-blue: #3996db;
+  --main-color-green: #82bc4f;
+  --main-color-yellow: #eabd5f;
 
-  --base-color-gray-dark: #0D0E11;
-  --base-color-gray-midle-dark: #16181D;
-  --base-color-gray-light-dark: #29292E;
-  --base-color-gray-midle: #292C34;
-  --base-color-gray-light: #878EA1;
-  --base-color-gray-lighter: #C0C4CE;
-  --base-color-gray-lightest: #E2E4E9;
+  --base-color-gray-dark: #0d0e11;
+  --base-color-gray-midle-dark: #16181d;
+  --base-color-gray-light-dark: #29292e;
+  --base-color-gray-midle: #292c34;
+  --base-color-gray-light: #878ea1;
+  --base-color-gray-lighter: #c0c4ce;
+  --base-color-gray-lightest: rgb(226, 228, 233, 0.1);
 
   --text-title-lg: 700 3.5rem/120% var(--font-family-asap);
   --text-title-md: 700 1.5rem/120% var(--font-family-asap);
@@ -36,20 +36,125 @@ body {
   font: var(--text);
   color: var(--base-color-gray-lightest);
   background-color: var(--base-color-gray-light-dark);
+  line-height: 1.6;
 }
 
-#container {
-  padding: 3rem;
-  max-width: 1366px;
-  margin-inline: auto;
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: columns;
-  gap: 1rem;
+a {
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Responsividade para telas pequenas (smartphones) */
+@media (max-width: 768px) {
+  .header-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .header-grid .social-media ul {
+    justify-content: center;
+  }
+
+  /* Ajustes para os projetos */
+  .trabalhos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Ajustes para os serviços */
+  .servicos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  /* Header Grid para telas muito pequenas */
+  .header-grid {
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+
+  .header-grid .logo img {
+    width: 80px;
+  }
+
+  .header-grid .header-text h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Trabalhos Grid para smartphones */
+  .trabalhos-grid {
+    padding: 30px 10px;
+  }
+
+  /* Serviços Grid para smartphones */
+  .servicos-grid {
+    padding: 30px 10px;
+  }
+
+  /* Contato Grid para smartphones */
+  .contato-grid {
+    padding: 30px 10px;
+  }
+
+  .contato-grid form {
+    padding: 10px;
+  }
+
+  .contato-grid button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+/* Responsividade para telas maiores (desktops grandes) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .header-grid {
+    padding: 30px;
+  }
+
+  .trabalhos-grid {
+    padding: 80px 40px;
+  }
+
+  .servicos-grid {
+    padding: 80px 40px;
+  }
+
+  .contato-grid {
+    padding: 80px 40px;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .tecnologias-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta as colunas para telas menores */
+    gap: 10px;
+  }
 }
