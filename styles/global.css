@@ -9,18 +9,18 @@
   --font-family-inconsolata: "Inconsolata", monospace;
   --font-family-maven: "Maven Pro", sans-serif;
 
-  --main-color-red: #e3646e;
-  --main-color-purple: #bb72e9;
-  --main-color-blue: #3996db;
-  --main-color-green: #82bc4f;
-  --main-color-yellow: #eabd5f;
+  --main-color-red: #E3646E;
+  --main-color-purple: #BB72E9;
+  --main-color-blue: #3996DB;
+  --main-color-green: #82BC4F;
+  --main-color-yellow: #EABD5F;
 
-  --base-color-gray-dark: #0d0e11;
-  --base-color-gray-midle-dark: #16181d;
-  --base-color-gray-light-dark: #29292e;
-  --base-color-gray-midle: #292c34;
-  --base-color-gray-light: #878ea1;
-  --base-color-gray-lighter: #c0c4ce;
+  --base-color-600: #E2E4E9;
+  --base-color-gray-dark-100: #0D0E11;
+  --base-color-gray-midle-dark-200: #16181D;
+  --base-color-gray-light-dark-300: #292C34;
+  --base-color-gray-midle-400: #878EA1;
+  --base-color-gray-light-500: #C0C4CE;
   --base-color-gray-lightest: rgb(226, 228, 233, 0.1);
 
   --text-title-lg: 700 3.5rem/120% var(--font-family-asap);
@@ -34,25 +34,20 @@
 
 body {
   font: var(--text);
-  color: var(--base-color-gray-lightest);
   background-color: var(--base-color-gray-light-dark);
   line-height: 1.6;
 }
 
 h1,
 h2,
-h3 {
-  margin-bottom: 20px;
+h3,
+h4 {
   text-align: center;
+  color: var(--base-color-600);
 }
 
-a {
-  color: #f2f2f2;
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
+p {
+  color: var(--base-color-gray-light-500);
 }
 
 img {
