@@ -78,28 +78,27 @@ Desenvolver este projeto foi mais um passo no meu desenvolvimento na arte da pro
 ### 📦 Como Executar o Projeto
 
 1. Clone o repositório:
-   ```bash
+   
    git clone https://github.com/ricardo-werner/Rocketseat_FullStack_Desafio_Pratico_Portifolio_Dev.git
 
-2. Abra o projeto no Visual Studio Code e ative o Go Live:
-    ```bash
+3. Abra o projeto no Visual Studio Code e ative o Go Live:
+    
    <p align="center">
-     <img width="480" src="./assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+     <img width="280" src="./assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="480" src="./assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+     <img width="280" src="./assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
-3. Visualize o resultado na página web:
+4. Visualize o resultado na página web:
 
-    ```bash
    <p align="center">
      <img width="480" src="./assets/to_readme/resultadoWeb.JPG" alt="Resultado na Web">
    </p>
 
 
 ### 🙋‍♂️ Autor
-Ricardo Werner
+Ricardo Werner<br>
 Dev em Desenvolvimento
 
