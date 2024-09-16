@@ -1,8 +1,8 @@
-# Título do Projeto
+# Portifólio Desenvolvedor Front-End
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Desafio prático pra desenvolver uma página de protifólio para desenvolvedores, com links para projetos e contato profissional.
 
-## Aplicação de Criptografia de Textos
+## Página estática de Portifólio DEV pessoal 
 
 ### 📜 Sobre o Projeto
 
@@ -19,14 +19,24 @@ Este projeto consiste em uma aplicação web para criptografia e descriptografia
 
 ### 🎥 Demonstração
 
-#### Tela do Enigma - Criptógrafo
+#### Tela inicial
 <p align="center">
-  <img width="480" src="to_readme/criptografia.jpg" alt="Tela do Enigma - Criptógrafo">
+  <img width="480" src="./assets/to_readme/header.JPG" alt="parte inicial do portifólio">
 </p>
 
-#### Vídeo do Funcionamento do Enigma - Criptógrafo
+#### Tela de projetos
 <p align="center">
-  <img width="480" src="to_readme/criptografia.gif" alt="Vídeo do Funcionamento do Enigma - Criptógrafo">
+  <img width="480" src="./assets/to_readme/jobs.JPG" alt="parte dos porjetos do portifólio">
+</p>
+
+#### Tela de serviços
+<p align="center">
+  <img width="480" src="./assets/to_readme/services.JPG" alt="parte dos serviços do portifólio">
+</p>
+
+#### Tela de contatos
+<p align="center">
+  <img width="480" src="./assets/to_readme/contacts.JPG" alt="parte dos contatos do portifólio">
 </p>
 
 ### 🧩 Desafio
@@ -37,14 +47,11 @@ O desafio proposto neste projeto foi criar uma aplicação que criptografa texto
 
 | Item  | Descrição                                                                 |
 |-------|---------------------------------------------------------------------------|
-|  1    | A aplicação deve ser desenvolvida em HTML, CSS e JavaScript.              |
-|  2    | A aplicação deve seguir os cartões do Trello.                             |
+|  1    | A página deve ser desenvolvida em HTML, CSS.                              |
+|  2    | A página deve seguir os design do Figma.                                  |
 |  3    | Modelagem do layout, formatos, tipografias, cores e organização no Figma. |
 |  3.1  | Opcional: Modelagem de modo livre.                                        |
-|  4    | Funcionalidade com letras minúsculas.                                     |
-|  5    | Não deve utilizar letras com acentos ou caracteres especiais.             |
-|  6    | Capacidade de converter para a versão criptografada e vice-versa.         |
-|  7    | Implementação de botão para copiar o texto criptografado/descriptografado.|
+
 
 ### 🚀 Plano do Projeto
 
@@ -54,43 +61,41 @@ No desenvolvimento desta aplicação, foram aplicados os seguintes conceitos:
 |-------|---------------------------------------------|
 |  1    | HTML                                        |
 |  2    | CSS                                         |
-|  3    | JavaScript                                  |
-|  4    | Gerenciamento de Projetos (Trello)          |
-|  5    | Prototipagem (Figma)                        |
-|  6    | Criptografia e Descriptografia de Textos    |
+|  3    | Prototipagem (Figma)                        |
 
 ### 🛠 Tecnologias Utilizadas
 
 - **Visual Studio Code**
 - **HTML**
 - **CSS**
-- **JavaScript**
+- **Documentação**
+- **ChatGpt**
 
 ### 💡 Reflexões
 
-Desenvolver este projeto foi uma experiência extremamente enriquecedora, proporcionando um aprofundamento significativo nas práticas de desenvolvimento web. Foi possível explorar a flexibilidade do HTML, CSS e JavaScript, além de refletir sobre a importância de uma estruturação inteligente para facilitar a manutenção futura das aplicações.
+Desenvolver este projeto foi mais um passo no meu desenvolvimento na arte da programação, proporcionando um aprofundamento nas práticas de desenvolvimento web. Foi possível explorar a flexibilidade do HTML e organização do CSS, além de desenvolver sobre a importância de uma estruturação inteligente para facilitar a manutenção futura das aplicações.
 
 ### 📦 Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/xxxxxx/foto.git
+   git clone https://github.com/ricardo-werner/Rocketseat_FullStack_Desafio_Pratico_Portifolio_Dev.git
 
 2. Abra o projeto no Visual Studio Code e ative o Go Live:
     ```bash
    <p align="center">
-     <img width="480" src="to_readme/golive.jpg" alt="Ativando o Go Live">
+     <img width="480" src="./assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="480" src="to_readme/goliveon.jpg" alt="Go Live ativado">
+     <img width="480" src="./assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
 3. Visualize o resultado na página web:
 
     ```bash
    <p align="center">
-     <img width="480" src="to_readme/criptografia.jpg" alt="Resultado na Web">
+     <img width="480" src="./assets/to_readme/resultadoWeb.JPG" alt="Resultado na Web">
    </p>
 
 
